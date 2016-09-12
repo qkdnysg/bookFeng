@@ -4,6 +4,8 @@ import android.util.Log;
 
 public class TestClass {
     protected static final String TAG = "com.droider.jnimethods";
+    private int aIntField;
+    private String aStringField;
     
     public int getIntField() {
         return aIntField;
@@ -18,10 +20,7 @@ public class TestClass {
         this.aStringField = aStringField;
     }
 
-    
-    private int aIntField;
-    private String aStringField;
-    
+
     public TestClass(){
         aIntField = 0;
         aStringField = "abc";
