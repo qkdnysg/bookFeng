@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class TestSubClass extends TestClass{
     private static float subFloatField = 3.8f;
-    private static String TAG="jnimethods";
+    private static String TAG="com.droider.jnimethods";
     
     public void aVoidMethod(){
         Log.v(TAG, "jni test a void subclass method£¬ this run in java");
